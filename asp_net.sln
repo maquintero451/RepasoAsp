@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud", "crud\crud.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{7E493CE6-92A0-445F-9DB7-5395240A9FC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incrementar", "Incrementar\Incrementar.csproj", "{A3FD1F04-DA3D-4EA6-A3D0-FB05D0AEAE51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7E493CE6-92A0-445F-9DB7-5395240A9FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E493CE6-92A0-445F-9DB7-5395240A9FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E493CE6-92A0-445F-9DB7-5395240A9FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FD1F04-DA3D-4EA6-A3D0-FB05D0AEAE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FD1F04-DA3D-4EA6-A3D0-FB05D0AEAE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FD1F04-DA3D-4EA6-A3D0-FB05D0AEAE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FD1F04-DA3D-4EA6-A3D0-FB05D0AEAE51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
