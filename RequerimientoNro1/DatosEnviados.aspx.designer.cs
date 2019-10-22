@@ -94,13 +94,13 @@ namespace RequerimientoNro1 {
         protected global::System.Web.UI.WebControls.TextBox txtTipoP;
         
         /// <summary>
-        /// Control TextBox9.
+        /// Control txtCiudad.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox txtCiudad;
         
         /// <summary>
         /// Control btnVolver.

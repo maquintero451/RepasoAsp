@@ -70,6 +70,7 @@
     <Content Include="DatosEnviados.aspx" />
     <Content Include="Formulario.aspx" />
     <Content Include="Web.config" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatosEnviados.aspx.cs">

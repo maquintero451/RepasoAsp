@@ -18,7 +18,7 @@
             <asp:TextBox ID="txtCorreo" runat="server"></asp:TextBox>
             <asp:TextBox ID="txtFecha" runat="server"></asp:TextBox>
             <asp:TextBox ID="txtTipoP" runat="server"></asp:TextBox>
-            <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtCiudad" runat="server" OnTextChanged="TextBox9_TextChanged"></asp:TextBox>
 
             <asp:Button ID="btnVolver" runat="server" OnClick="btnVolver_Click" Text="Volver" />
 

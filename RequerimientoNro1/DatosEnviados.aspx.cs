@@ -27,11 +27,17 @@ namespace RequerimientoNro1
             txtCorreo.Text = (string)Session["correo"];
             txtFecha.Text = (string)Session["fecha"];
             txtTipoP.Text = (string)Session["tipoP"];
+            txtCiudad.Text = (string)Session["ciudad"];
         }
 
         protected void btnVolver_Click(object sender, EventArgs e)
         {
             Response.Redirect("Formulario.aspx");
+        }
+
+        protected void TextBox9_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

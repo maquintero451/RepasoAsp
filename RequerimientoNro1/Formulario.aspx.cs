@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
 
 namespace RequerimientoNro1
 {
@@ -12,7 +13,15 @@ namespace RequerimientoNro1
       
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                DataSet ds = new DataSet();
+                ds.ReadXml(Server.MapPath("XMLFile1.xml"));
+                cboCiudades.DataSource = ds;
+                cboCiudades.DataTextField = "nombre";
+                cboCiudades.DataValueField = "id";
+                cboCiudades.DataBind();
+            }
         }
 
         protected void btnEnviar_Click(object sender, EventArgs e)
@@ -32,6 +41,7 @@ namespace RequerimientoNro1
             {
                 Session["tipoP"] ="Natural";
             }
+            Session["ciudad"] = cboCiudades.SelectedItem.ToString();
             Response.Redirect("DatosEnviados.aspx");
         }
 
